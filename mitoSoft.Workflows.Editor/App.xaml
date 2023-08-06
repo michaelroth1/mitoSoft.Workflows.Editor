@@ -1,0 +1,89 @@
+﻿<Application x:Class="mitoSoft.Workflows.Editor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:mitoSoft.Workflows.Editor"
+             xmlns:ViewModel="clr-namespace:mitoSoft.Workflows.Editor.ViewModel"
+             xmlns:View="clr-namespace:mitoSoft.Workflows.Editor.View"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Themes/Dark.xaml"/>
+                <!--<ResourceDictionary Source="Styles/Themes/Light.xaml"/>-->
+                <ResourceDictionary Source="Icons/Icons.xaml"/>
+
+
+                <!--<ResourceDictionary Source="Styles/Theme.xaml"/>-->
+                <ResourceDictionary Source="Styles/ErrorList/StyleExpander.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/StyleScrollBar.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/StyleScrollViewer.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/TemplateListBox.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/StyleLabel.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/StyleListBoxItem.xaml"/>
+                <ResourceDictionary Source="Styles/ErrorList/StyleLabelWithIcon.xaml"/>
+
+
+                <ResourceDictionary Source="Styles/TableOfTransitions/StyleListBoxTransitionsItem.xaml"/>
+
+
+                <!--#region         Test-->
+
+                <!--#endregion      Test-->
+
+
+
+                <!--#region         Selector-->
+
+                <ResourceDictionary Source="Styles\StyleSelector.xaml"/>
+
+                <!--#endregion      Selector-->
+
+                <!--#region         Node-->
+
+                <ResourceDictionary Source="Styles\Node\StyleNodeCollapseButton.xaml"/>
+                <ResourceDictionary Source="Styles\StyleEmptyTextBox.xaml"/>
+
+                <!--#endregion      Node-->
+
+                <!--#region      MainWindow-->
+
+
+                <ResourceDictionary Source="Styles/MainWindow/CustomWindowTemplate.xaml"/>
+
+                <!--#region      Header-->
+                <ResourceDictionary Source="Styles/MainWindow/ToolBar/TemplateSeparator.xaml"/>
+                <ResourceDictionary Source="Styles/MainWindow/ToolBar/StyleRadioButton.xaml"/>
+                <ResourceDictionary Source="Styles/MainWindow/ToolBarTemplate.xaml"/>
+                <ResourceDictionary Source="Styles/MainWindow/Header/StyleHeaderButton.xaml"/>
+                <!--#endregion   Header-->
+
+                <!--#endregion   MainWindow-->
+
+                <!--#region         Menu-->
+
+                <ResourceDictionary Source="Styles/Menu/MenuTemplate.xaml"/>
+                <ResourceDictionary Source="Styles/Menu/StyleMenuItem.xaml"/>
+
+                <!--#endregion      Menu-->
+
+                <!--#region         ContextMenu-->
+
+                <ResourceDictionary Source="Styles/ContextMenu/TemplateContextMenu.xaml"/>
+                <ResourceDictionary Source="Styles/ContextMenu/StyleContextMenuItem.xaml"/>
+
+                <!--#endregion      ContextMenu-->
+
+                <!--#region         Tabs-->
+
+                <ResourceDictionary Source="Styles/Tabs/StyleTabItem.xaml"/>
+
+                <!--#endregion      Tabs-->
+
+
+            </ResourceDictionary.MergedDictionaries>
+
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
